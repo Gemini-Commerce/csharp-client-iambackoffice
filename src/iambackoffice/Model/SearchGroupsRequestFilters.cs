@@ -39,6 +39,7 @@ namespace iambackoffice.Model
         public SearchGroupsRequestFilters(Dictionary<string, string> data = default(Dictionary<string, string>))
         {
             this.Data = data;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace iambackoffice.Model
         /// </summary>
         [DataMember(Name = "data", EmitDefaultValue = false)]
         public Dictionary<string, string> Data { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace iambackoffice.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class SearchGroupsRequestFilters {\n");
             sb.Append("  Data: ").Append(Data).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace iambackoffice.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

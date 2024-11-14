@@ -308,7 +308,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeAssignRolesResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeAssignRolesResponse> IamBackofficeAssignRolesAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeAssignRolesResponse> IamBackofficeAssignRolesAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// AUTHZ
@@ -321,7 +321,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeAssignRolesResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeAssignRolesResponse>> IamBackofficeAssignRolesWithHttpInfoAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeAssignRolesResponse>> IamBackofficeAssignRolesWithHttpInfoAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -333,7 +333,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> IamBackofficeAssignUserToGroupAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> IamBackofficeAssignUserToGroupAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -346,7 +346,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> IamBackofficeAssignUserToGroupWithHttpInfoAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> IamBackofficeAssignUserToGroupWithHttpInfoAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// GROUPS
         /// </summary>
@@ -358,7 +358,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeCreateGroupResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeCreateGroupResponse> IamBackofficeCreateGroupAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeCreateGroupResponse> IamBackofficeCreateGroupAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// GROUPS
@@ -371,7 +371,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeCreateGroupResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeCreateGroupResponse>> IamBackofficeCreateGroupWithHttpInfoAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeCreateGroupResponse>> IamBackofficeCreateGroupWithHttpInfoAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -383,7 +383,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeUserMfaResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeDisableUserMfaAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeDisableUserMfaAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -396,7 +396,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeUserMfaResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeDisableUserMfaWithHttpInfoAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeDisableUserMfaWithHttpInfoAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -408,7 +408,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeUserMfaResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeEnableUserMfaAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeEnableUserMfaAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -421,7 +421,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeUserMfaResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeEnableUserMfaWithHttpInfoAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeEnableUserMfaWithHttpInfoAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// MFA
         /// </summary>
@@ -433,7 +433,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeGenerateSecretForQRResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeGenerateSecretForQRResponse> IamBackofficeGenerateSecretForQRAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeGenerateSecretForQRResponse> IamBackofficeGenerateSecretForQRAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// MFA
@@ -446,7 +446,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeGenerateSecretForQRResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeGenerateSecretForQRResponse>> IamBackofficeGenerateSecretForQRWithHttpInfoAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeGenerateSecretForQRResponse>> IamBackofficeGenerateSecretForQRWithHttpInfoAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// USER
         /// </summary>
@@ -458,7 +458,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeGetUserResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeGetUserResponse> IamBackofficeGetUserAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeGetUserResponse> IamBackofficeGetUserAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// USER
@@ -471,7 +471,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeGetUserResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeGetUserResponse>> IamBackofficeGetUserWithHttpInfoAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeGetUserResponse>> IamBackofficeGetUserWithHttpInfoAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// LOGIN
         /// </summary>
@@ -483,7 +483,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeLoginResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// LOGIN
@@ -496,7 +496,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeLoginResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginWithHttpInfoAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginWithHttpInfoAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// LOGIN MFA
         /// </summary>
@@ -508,7 +508,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeLoginResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginMfaAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginMfaAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// LOGIN MFA
@@ -521,7 +521,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeLoginResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginMfaWithHttpInfoAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginMfaWithHttpInfoAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -533,7 +533,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeLogoutResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeLogoutResponse> IamBackofficeLogoutAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeLogoutResponse> IamBackofficeLogoutAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -546,7 +546,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeLogoutResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeLogoutResponse>> IamBackofficeLogoutWithHttpInfoAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeLogoutResponse>> IamBackofficeLogoutWithHttpInfoAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// REGISTRATION
         /// </summary>
@@ -558,7 +558,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeRegistrationResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeRegistrationResponse> IamBackofficeRegisterAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeRegistrationResponse> IamBackofficeRegisterAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// REGISTRATION
@@ -571,7 +571,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeRegistrationResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeRegistrationResponse>> IamBackofficeRegisterWithHttpInfoAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeRegistrationResponse>> IamBackofficeRegisterWithHttpInfoAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -583,7 +583,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeSearchGroupsResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeSearchGroupsResponse> IamBackofficeSearchGroupsAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeSearchGroupsResponse> IamBackofficeSearchGroupsAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -596,7 +596,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeSearchGroupsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeSearchGroupsResponse>> IamBackofficeSearchGroupsWithHttpInfoAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeSearchGroupsResponse>> IamBackofficeSearchGroupsWithHttpInfoAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -608,7 +608,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeUnassignRolesResponse</returns>
-        System.Threading.Tasks.Task<IambackofficeUnassignRolesResponse> IamBackofficeUnassignRolesAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<IambackofficeUnassignRolesResponse> IamBackofficeUnassignRolesAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -621,7 +621,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeUnassignRolesResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<IambackofficeUnassignRolesResponse>> IamBackofficeUnassignRolesWithHttpInfoAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<IambackofficeUnassignRolesResponse>> IamBackofficeUnassignRolesWithHttpInfoAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         #endregion Asynchronous Operations
     }
 
@@ -821,7 +821,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeAssignRolesResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeAssignRolesResponse> IamBackofficeAssignRolesAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeAssignRolesResponse> IamBackofficeAssignRolesAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeAssignRolesResponse> localVarResponse = await IamBackofficeAssignRolesWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -835,7 +835,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeAssignRolesResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeAssignRolesResponse>> IamBackofficeAssignRolesWithHttpInfoAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeAssignRolesResponse>> IamBackofficeAssignRolesWithHttpInfoAsync(IambackofficeAssignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -967,7 +967,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> IamBackofficeAssignUserToGroupAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> IamBackofficeAssignUserToGroupAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<Object> localVarResponse = await IamBackofficeAssignUserToGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -981,7 +981,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<Object>> IamBackofficeAssignUserToGroupWithHttpInfoAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<Object>> IamBackofficeAssignUserToGroupWithHttpInfoAsync(IambackofficeAssignUserToGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1113,7 +1113,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeCreateGroupResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeCreateGroupResponse> IamBackofficeCreateGroupAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeCreateGroupResponse> IamBackofficeCreateGroupAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeCreateGroupResponse> localVarResponse = await IamBackofficeCreateGroupWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1127,7 +1127,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeCreateGroupResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeCreateGroupResponse>> IamBackofficeCreateGroupWithHttpInfoAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeCreateGroupResponse>> IamBackofficeCreateGroupWithHttpInfoAsync(IambackofficeCreateGroupRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1259,7 +1259,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeUserMfaResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeDisableUserMfaAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeDisableUserMfaAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeUserMfaResponse> localVarResponse = await IamBackofficeDisableUserMfaWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1273,7 +1273,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeUserMfaResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeDisableUserMfaWithHttpInfoAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeDisableUserMfaWithHttpInfoAsync(IambackofficeDisableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1405,7 +1405,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeUserMfaResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeEnableUserMfaAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeUserMfaResponse> IamBackofficeEnableUserMfaAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeUserMfaResponse> localVarResponse = await IamBackofficeEnableUserMfaWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1419,7 +1419,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeUserMfaResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeEnableUserMfaWithHttpInfoAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeUserMfaResponse>> IamBackofficeEnableUserMfaWithHttpInfoAsync(IambackofficeEnableUserMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1551,7 +1551,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeGenerateSecretForQRResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeGenerateSecretForQRResponse> IamBackofficeGenerateSecretForQRAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeGenerateSecretForQRResponse> IamBackofficeGenerateSecretForQRAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeGenerateSecretForQRResponse> localVarResponse = await IamBackofficeGenerateSecretForQRWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1565,7 +1565,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeGenerateSecretForQRResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeGenerateSecretForQRResponse>> IamBackofficeGenerateSecretForQRWithHttpInfoAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeGenerateSecretForQRResponse>> IamBackofficeGenerateSecretForQRWithHttpInfoAsync(Object body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1697,7 +1697,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeGetUserResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeGetUserResponse> IamBackofficeGetUserAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeGetUserResponse> IamBackofficeGetUserAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeGetUserResponse> localVarResponse = await IamBackofficeGetUserWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1711,7 +1711,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeGetUserResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeGetUserResponse>> IamBackofficeGetUserWithHttpInfoAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeGetUserResponse>> IamBackofficeGetUserWithHttpInfoAsync(IambackofficeGetUserRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1843,7 +1843,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeLoginResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeLoginResponse> localVarResponse = await IamBackofficeLoginWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1857,7 +1857,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeLoginResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginWithHttpInfoAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginWithHttpInfoAsync(IambackofficeLoginRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1989,7 +1989,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeLoginResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginMfaAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeLoginResponse> IamBackofficeLoginMfaAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeLoginResponse> localVarResponse = await IamBackofficeLoginMfaWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2003,7 +2003,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeLoginResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginMfaWithHttpInfoAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeLoginResponse>> IamBackofficeLoginMfaWithHttpInfoAsync(IambackofficeLoginMfaRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2135,7 +2135,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeLogoutResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeLogoutResponse> IamBackofficeLogoutAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeLogoutResponse> IamBackofficeLogoutAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeLogoutResponse> localVarResponse = await IamBackofficeLogoutWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2149,7 +2149,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeLogoutResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeLogoutResponse>> IamBackofficeLogoutWithHttpInfoAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeLogoutResponse>> IamBackofficeLogoutWithHttpInfoAsync(IambackofficeLogoutRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2281,7 +2281,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeRegistrationResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeRegistrationResponse> IamBackofficeRegisterAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeRegistrationResponse> IamBackofficeRegisterAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeRegistrationResponse> localVarResponse = await IamBackofficeRegisterWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2295,7 +2295,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeRegistrationResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeRegistrationResponse>> IamBackofficeRegisterWithHttpInfoAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeRegistrationResponse>> IamBackofficeRegisterWithHttpInfoAsync(IambackofficeRegistrationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2427,7 +2427,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeSearchGroupsResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeSearchGroupsResponse> IamBackofficeSearchGroupsAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeSearchGroupsResponse> IamBackofficeSearchGroupsAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeSearchGroupsResponse> localVarResponse = await IamBackofficeSearchGroupsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2441,7 +2441,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeSearchGroupsResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeSearchGroupsResponse>> IamBackofficeSearchGroupsWithHttpInfoAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeSearchGroupsResponse>> IamBackofficeSearchGroupsWithHttpInfoAsync(IambackofficeSearchGroupsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2573,7 +2573,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of IambackofficeUnassignRolesResponse</returns>
-        public async System.Threading.Tasks.Task<IambackofficeUnassignRolesResponse> IamBackofficeUnassignRolesAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<IambackofficeUnassignRolesResponse> IamBackofficeUnassignRolesAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             iambackoffice.Client.ApiResponse<IambackofficeUnassignRolesResponse> localVarResponse = await IamBackofficeUnassignRolesWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2587,7 +2587,7 @@ namespace iambackoffice.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (IambackofficeUnassignRolesResponse)</returns>
-        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeUnassignRolesResponse>> IamBackofficeUnassignRolesWithHttpInfoAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<iambackoffice.Client.ApiResponse<IambackofficeUnassignRolesResponse>> IamBackofficeUnassignRolesWithHttpInfoAsync(IambackofficeUnassignRolesRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)

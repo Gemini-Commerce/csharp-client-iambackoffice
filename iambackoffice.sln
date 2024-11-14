@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 12.0.0.0
 MinimumVisualStudioVersion = 10.0.0.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iambackoffice", "src\iambackoffice\iambackoffice.csproj", "{32E1DD39-F42A-47C8-B968-33AC3D068573}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iambackoffice", "src\iambackoffice\iambackoffice.csproj", "{A491E8CA-AB1F-4589-B766-A8DFA4AEE527}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iambackoffice.Test", "src\iambackoffice.Test\iambackoffice.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
 EndProject
@@ -12,10 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32E1DD39-F42A-47C8-B968-33AC3D068573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32E1DD39-F42A-47C8-B968-33AC3D068573}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32E1DD39-F42A-47C8-B968-33AC3D068573}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32E1DD39-F42A-47C8-B968-33AC3D068573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A491E8CA-AB1F-4589-B766-A8DFA4AEE527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A491E8CA-AB1F-4589-B766-A8DFA4AEE527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A491E8CA-AB1F-4589-B766-A8DFA4AEE527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A491E8CA-AB1F-4589-B766-A8DFA4AEE527}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
